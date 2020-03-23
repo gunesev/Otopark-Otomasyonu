@@ -44,6 +44,14 @@
             this.labelTelefon = new System.Windows.Forms.Label();
             this.textBoxYakıtTürü = new System.Windows.Forms.TextBox();
             this.labelYakıtTürü = new System.Windows.Forms.Label();
+            this.buttonAbone = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBoxtcn = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewGüncelBilgi)).BeginInit();
             this.SuspendLayout();
             // 
@@ -144,6 +152,7 @@
             // textBoxTelefon
             // 
             this.textBoxTelefon.Location = new System.Drawing.Point(105, 78);
+            this.textBoxTelefon.MaxLength = 11;
             this.textBoxTelefon.Name = "textBoxTelefon";
             this.textBoxTelefon.Size = new System.Drawing.Size(188, 22);
             this.textBoxTelefon.TabIndex = 2;
@@ -196,11 +205,98 @@
             this.labelYakıtTürü.TabIndex = 0;
             this.labelYakıtTürü.Text = "Yakıt Türü";
             // 
+            // buttonAbone
+            // 
+            this.buttonAbone.Location = new System.Drawing.Point(75, 358);
+            this.buttonAbone.Name = "buttonAbone";
+            this.buttonAbone.Size = new System.Drawing.Size(217, 37);
+            this.buttonAbone.TabIndex = 11;
+            this.buttonAbone.Text = "Abone Ekle";
+            this.buttonAbone.UseVisualStyleBackColor = true;
+            this.buttonAbone.Click += new System.EventHandler(this.buttonAbone_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(37, 461);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(46, 17);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "label4";
+            this.label4.Visible = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(118, 461);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 17);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "label5";
+            this.label5.Visible = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(180, 461);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(46, 17);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "label6";
+            this.label6.Visible = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(247, 461);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(46, 17);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "label7";
+            this.label7.Visible = false;
+            // 
+            // textBoxtcn
+            // 
+            this.textBoxtcn.Location = new System.Drawing.Point(75, 414);
+            this.textBoxtcn.Name = "textBoxtcn";
+            this.textBoxtcn.Size = new System.Drawing.Size(113, 22);
+            this.textBoxtcn.TabIndex = 16;
+            this.textBoxtcn.Visible = false;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(218, 408);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 35);
+            this.button4.TabIndex = 17;
+            this.button4.Text = "Giriş";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Visible = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(50, 500);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(46, 17);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "label8";
+            this.label8.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1276, 523);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.textBoxtcn);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.buttonAbone);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dateTimePickerSaat);
@@ -244,6 +340,14 @@
         private System.Windows.Forms.Label labelTelefon;
         private System.Windows.Forms.TextBox textBoxYakıtTürü;
         private System.Windows.Forms.Label labelYakıtTürü;
+        private System.Windows.Forms.Button buttonAbone;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBoxtcn;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label8;
     }
 }
 

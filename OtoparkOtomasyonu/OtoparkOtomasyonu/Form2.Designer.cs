@@ -89,7 +89,7 @@
             this.Controls.Add(this.labelSifre);
             this.Controls.Add(this.labelTc);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Personel Giriş";
             this.ResumeLayout(false);
             this.PerformLayout();
 

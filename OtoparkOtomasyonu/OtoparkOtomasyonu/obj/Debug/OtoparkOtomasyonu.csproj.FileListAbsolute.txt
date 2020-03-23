@@ -9,3 +9,4 @@ C:\Users\CANIM OĞLUM\source\repos\OtoparkOtomasyonu\OtoparkOtomasyonu\obj\Debug
 C:\Users\CANIM OĞLUM\source\repos\OtoparkOtomasyonu\OtoparkOtomasyonu\obj\Debug\OtoparkOtomasyonu.exe
 C:\Users\CANIM OĞLUM\source\repos\OtoparkOtomasyonu\OtoparkOtomasyonu\obj\Debug\OtoparkOtomasyonu.pdb
 C:\Users\CANIM OĞLUM\source\repos\OtoparkOtomasyonu\OtoparkOtomasyonu\obj\Debug\OtoparkOtomasyonu.Form2.resources
+C:\Users\CANIM OĞLUM\source\repos\OtoparkOtomasyonu\OtoparkOtomasyonu\obj\Debug\OtoparkOtomasyonu.Form3.resources
